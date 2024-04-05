@@ -1,0 +1,12 @@
+/Users/denis/RiderProjects/WebShop/DataAccess/bin/Debug/net7.0/DataAccess.deps.json
+/Users/denis/RiderProjects/WebShop/DataAccess/bin/Debug/net7.0/DataAccess.dll
+/Users/denis/RiderProjects/WebShop/DataAccess/bin/Debug/net7.0/DataAccess.pdb
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfoInputs.cache
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfo.cs
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/DataAccess.dll
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/DataAccess.pdb
+/Users/denis/RiderProjects/WebShop/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll

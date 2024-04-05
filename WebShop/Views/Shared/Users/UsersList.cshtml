@@ -1,0 +1,16 @@
+@using WebShop.Models.Users
+@model IEnumerable<WebShop.Models.Users.UserViewModel>
+
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>Users</h2>
+@Html.ActionLink("Create", "CreateUser", "AddUser", routeValues: null, htmlAttributes: new {@class="btn btn-primary", @role = "button"})
+
+<div class="row">
+    @foreach (UserViewModel user in Model)
+    {
+        @await Html.PartialAsync("Users/UserItemInfo", user)
+    }
+</div>

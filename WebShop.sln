@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop", "WebShop\WebShop.csproj", "{7E1D0B18-76E4-4C50-BAE9-A7AC16F441A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{04374E90-0E80-41A7-AE7A-320D7AC14992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1D0B18-76E4-4C50-BAE9-A7AC16F441A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1D0B18-76E4-4C50-BAE9-A7AC16F441A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1D0B18-76E4-4C50-BAE9-A7AC16F441A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1D0B18-76E4-4C50-BAE9-A7AC16F441A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04374E90-0E80-41A7-AE7A-320D7AC14992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04374E90-0E80-41A7-AE7A-320D7AC14992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04374E90-0E80-41A7-AE7A-320D7AC14992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04374E90-0E80-41A7-AE7A-320D7AC14992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
