@@ -16,4 +16,13 @@ public sealed class ProductEntity
         Price = price;
         Reviews = reviews;
     }
+    
+    public ProductEntity(int id, string name, string description, float price)
+    {
+        Id = id;
+        Name = name;
+        Description = description;
+        Price = price;
+        Reviews = new List<ReviewEntity>();
+    }
 }

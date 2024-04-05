@@ -1,6 +1,6 @@
-namespace DataAccess.Entities;
+namespace WebShop.Models.Review;
 
-public class ReviewEntity
+public class ReviewViewModel
 {
     public int Id { get; }
     public float Grade { get; }
@@ -8,7 +8,7 @@ public class ReviewEntity
     public int UserId { get; }
     public string UserName { get; }
 
-    public ReviewEntity(int id, float grade, string text, int userId, string userName)
+    public ReviewViewModel(int id, float grade, string text, int userId, string userName)
     {
         Id = id;
         Grade = grade;

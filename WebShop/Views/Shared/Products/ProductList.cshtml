@@ -1,0 +1,16 @@
+@using WebShop.Models.Product
+@model IEnumerable<WebShop.Models.Product.ProductViewModel>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>Products</h2>
+@Html.ActionLink("Create", "CreateProduct", "AddProduct", routeValues: null, htmlAttributes: new {@class="btn btn-primary", @role = "button"})
+
+<div class="row">
+    @foreach (ProductViewModel product in Model)
+    {
+        @await Html.PartialAsync("Products/ProductItemInfo", product)
+    }
+</div>

@@ -1,0 +1,18 @@
+@using WebShop.Models.Review
+@model WebShop.Models.Product.ProductViewModel
+
+<div class="card col-4" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <h4 class="card-subtitle mb-2 text-muted">@Model.Price$</h4>
+        <p class="card-text">@Model.Description</p>
+        <p class="card-text">
+                @foreach (ReviewViewModel review in Model.Reviews)
+                {
+                    @await Html.PartialAsync("Reviews/ReviewsItemInfo", review)
+                }
+        </p>
+        <a href="#" class="card-link">Edit</a>
+        @Html.ActionLink("Delete", "Delete", "RemoveProduct", new {id = Model.Id})
+    </div>
+</div>

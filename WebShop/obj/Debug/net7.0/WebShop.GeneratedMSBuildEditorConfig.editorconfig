@@ -28,6 +28,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/denis/RiderProjects/WebShop/WebShop/Views/Shared/Products/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Byb2R1Y3RzL0NyZWF0ZVByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/denis/RiderProjects/WebShop/WebShop/Views/Shared/Products/ProductItemInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Byb2R1Y3RzL1Byb2R1Y3RJdGVtSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/denis/RiderProjects/WebShop/WebShop/Views/Shared/Products/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Byb2R1Y3RzL1Byb2R1Y3RMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/denis/RiderProjects/WebShop/WebShop/Views/Shared/Reviews/ReviewsItemInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlld3MvUmV2aWV3c0l0ZW1JbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/denis/RiderProjects/WebShop/WebShop/Views/Shared/Users/CreateUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1VzZXJzL0NyZWF0ZVVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
