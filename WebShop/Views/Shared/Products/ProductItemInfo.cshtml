@@ -10,9 +10,11 @@
                 @foreach (ReviewViewModel review in Model.Reviews)
                 {
                     @await Html.PartialAsync("Reviews/ReviewsItemInfo", review)
+                    @Html.ActionLink("Delete", "Delete","RemoveReview", new {modelId = Model.Id, reviewId = review.Id})
                 }
         </p>
-        <a href="#" class="card-link">Edit</a>
-        @Html.ActionLink("Delete", "Delete", "RemoveProduct", new {id = Model.Id})
+        @Html.ActionLink("DeleteProduct", "Delete", "RemoveProduct", new {id = Model.Id})
+        @Html.ActionLink("AddReview", "CreateReview", "AddReview", new {id = Model.Id})
+
     </div>
 </div>
