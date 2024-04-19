@@ -8,7 +8,7 @@ namespace WebShop.Controllers.Products;
 public class GetProductsController : Controller
 {
     // GET
-    public IActionResult ProductsList()
+    public ViewResult ProductsList()
     {
         IEnumerable<ProductViewModel> model =
             MockDb.Products.Select(p =>
