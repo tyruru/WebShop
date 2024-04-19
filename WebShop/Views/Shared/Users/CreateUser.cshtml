@@ -1,6 +1,9 @@
+@using Microsoft.Extensions.Localization
+@using WebShop.Resources
 @model WebShop.Models.Users.CreateUserViewModel
+@inject IStringLocalizer<AddUser> Localizer
 
-<h3>Create new user</h3>
+<h3>@Localizer["Title"].Value</h3>
 
 @using (Html.BeginForm())
 {
@@ -36,9 +39,9 @@
         
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Create" class="btn btn-default"/>
+            <input type="submit" value="@Localizer["CreateButton"].Value" class="btn btn-default"/>
         </div>
     </div>
 </div>
-    @Html.ActionLink("back to list", "UserList", "GetUsers")
+    @Html.ActionLink(@SharedResources.BackToList, "UserList", "GetUsers")
 }

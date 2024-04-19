@@ -1,12 +1,13 @@
 @using WebShop.Models.Product
+@using WebShop.Resources
 @model IEnumerable<WebShop.Models.Product.ProductViewModel>
 
 @{
     ViewBag.Title = "Products";
 }
 
-<h2>Products</h2>
-@Html.ActionLink("Create", "CreateProduct", "AddProduct", routeValues: null, htmlAttributes: new {@class="btn btn-primary", @role = "button"})
+<h2>@ProductListResources.Title</h2>
+@Html.ActionLink(@SharedResources.CreateButton, "CreateProduct", "AddProduct", routeValues: null, htmlAttributes: new {@class="btn btn-primary", @role = "button"})
 
 <div class="row">
     @foreach (ProductViewModel product in Model)

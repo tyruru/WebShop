@@ -1,3 +1,4 @@
+@using WebShop.Resources
 @model WebShop.Models.Users.UserViewModel
 
 <div class="card col-4" style="width: 18rem;">
@@ -5,7 +6,6 @@
         <h5 class="card-title">@Model.UserName</h5>
         <h6 class ="card-subtitle mb-2 text-black-muted">@Model.Email</h6>
         <p class = "card-text"> OK</p>
-        <a href="#" class="card-link">Editor</a>
-        @Html.ActionLink("Delete", "Delete", "RemoveUser", new {id = Model.Id})
+        @Html.ActionLink(@SharedResources.DeleteButton, "Delete", "RemoveUser", new {id = Model.Id})
     </div>
 </div>

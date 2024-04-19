@@ -1,12 +1,11 @@
 @using WebShop.Models.Users
+@using WebShop.Resources
 @model IEnumerable<WebShop.Models.Users.UserViewModel>
 
-@{
-    ViewBag.Title = "Users";
-}
 
-<h2>Users</h2>
-@Html.ActionLink("Create", "CreateUser", "AddUser", routeValues: null, htmlAttributes: new {@class="btn btn-primary", @role = "button"})
+<h2>@UsersListResources.Title</h2>
+
+@Html.ActionLink(@SharedResources.CreateButton, "CreateUser", "AddUser", routeValues: null, htmlAttributes: new {@class="btn btn-primary", @role = "button"})
 
 <div class="row">
     @foreach (UserViewModel user in Model)

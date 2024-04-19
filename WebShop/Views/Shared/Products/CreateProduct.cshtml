@@ -1,6 +1,7 @@
+@using WebShop.Resources
 @model WebShop.Models.Product.CreateProductViewModel
 
-<h3>Create new product</h3>
+<h3>@AddProductResources.Title</h3>
 
 @using (Html.BeginForm())
 {
@@ -35,10 +36,10 @@
         
         <div class="form-group">
             <div class="col-md-10">
-                <input type="submit" value="Create" class="btn btn-default"/>
+                <input type="submit" value="@SharedResources.CreateButton" class="btn btn-default"/>
             </div>
         </div>
     </div>
     
-    @Html.ActionLink("back to list", "ProductsList", "GetProducts")
+    @Html.ActionLink(@SharedResources.BackToList, "ProductsList", "GetProducts")
 }

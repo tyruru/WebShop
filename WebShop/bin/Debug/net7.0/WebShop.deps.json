@@ -12,6 +12,14 @@
         },
         "runtime": {
           "WebShop.dll": {}
+        },
+        "resources": {
+          "en-us/WebShop.resources.dll": {
+            "locale": "en-us"
+          },
+          "uk-ua/WebShop.resources.dll": {
+            "locale": "uk-ua"
+          }
         }
       },
       "DataAccess/1.0.0": {

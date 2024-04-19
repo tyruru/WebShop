@@ -10,4 +10,110 @@
       <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\Texts.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Texts.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Texts.en-US.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Texts.en-US.Designer.cs</LastGenOutput>
+        <DependentUpon>Texts.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Texts.uk-UA.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Texts.uk-UA.Designer.cs</LastGenOutput>
+        <DependentUpon>Texts.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SharedResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SharedResources.en-us.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResources.en-us.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SharedResources.uk-ua.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResources.uk-ua.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\AddUser.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>AddUser.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\UsersListResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>UsersListResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\HomePageResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>HomePageResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\AddProductResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>AddProductResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\ProductListResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ProductList.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\AddReviewResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>AddReviewResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\Texts.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Texts.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Texts.en-US.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Texts.en-US.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Texts.uk-UA.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Texts.uk-UA.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\SharedResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SharedResources.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\AddUser.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>AddUser.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\UsersListResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>UsersListResources.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\HomePageResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>HomePageResources.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\AddProductResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>AddProductResources.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\ProductListResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ProductListResources.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\AddReviewResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>AddReviewResources.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
